@@ -34,8 +34,10 @@ Now that you hopefully understand how the car wiper works, along with its compon
 # SWOT Analysis
 ## strengths  | weakness
 ------------  |  -----------
-electronic and speed control reduced noise at blade reversal points. |  Additional cost is required to install this system for four wheelers. 
+electronic and speed control reduced noise at blade reversal points. |  Additional cost is required to install this system for four wheelers.
+
 Reduced weight of the motor and size of the motor. | it is not applicable for two wheelers.
+
 Enhanced driver comfort reduced noise from wiper operation. | This system applied in the case of water falling on the glass only. 
 
 
