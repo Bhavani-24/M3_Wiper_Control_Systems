@@ -51,6 +51,7 @@ A Wiper Attack involves wiping/overwriting/removing data from the victim.
 
 # Requirements
 S.No. | Requirements | Status
+------ | ----------- | -------
 1.    | Arm Based Microcontroller | STM32F407VGT6 | Implemented
 2.    | OS       | Windows | Implemented
 3.    | Programming Language | C Language| Implemented 
