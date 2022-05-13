@@ -32,16 +32,25 @@ Now that you hopefully understand how the car wiper works, along with its compon
 - Windshield wipers are operated by an electric motor.The electric motor is attached to a worm gear, which transmits the necessary force to a long rod that sets the wiper arms in motion. When the wiper switch is in the off position, the wiper will not function. When the wiper switch is in low-speed mode, the wiper will work at low speed. Accordingly, when the wiper switch is in high-speed mode, the wiper will work at a fairly high speed.
 
 # SWOT Analysis
-strengths                                                            |  weakness
+## strengths                                                            
+electronic and speed control reduced noise at blade reversal points.   
+Reduced weight of the motor and size of the motor.                    
+Enhanced driver comfort reduced noise from wiper operation.            
 
----------------------------------------------------------------------| ---------------------------------------------------------------------
+## weakness
+Additional cost is required to install this system for four wheelers.
+It is not applicable for two wheelers.
+This system applied in the case of water falling on the glass only.
 
-electronic and speed control reduced noise at blade reversal points. |  Additional cost is required to install this system for four wheelers.
+## Opportunities
+The wiper system of a vehicle is an integrated system that is used to remove rain, dust, oil from a windscreen or windshield.
+it greatly makes the visibility and affets the safety of passengers and the vehicles also.
 
-Reduced weight of the motor and size of the motor.                   | It is not applicable for two wheelers.
+## Treats
+A Wiper Attack involves wiping/overwriting/removing data from the victim.
 
-Enhanced driver comfort reduced noise from wiper operation.          |  This system applied in the case of water falling on the glass only. 
-
-
-
-
+# Requirements
+S.No. | Requirements | Status
+1.    | Arm Based Microcontroller | STM32F407VGT6 | Implemented
+2.    | OS       | Windows | Implemented
+3.    | Programming Language | C Language| Implemented 
