@@ -32,7 +32,11 @@ Now that you hopefully understand how the car wiper works, along with its compon
 - Windshield wipers are operated by an electric motor.The electric motor is attached to a worm gear, which transmits the necessary force to a long rod that sets the wiper arms in motion. When the wiper switch is in the off position, the wiper will not function. When the wiper switch is in low-speed mode, the wiper will work at low speed. Accordingly, when the wiper switch is in high-speed mode, the wiper will work at a fairly high speed.
 
 # SWOT Analysis
-
+## strengths  |  ## weakness
+------------  |  -----------
+electronic and speed control reduced noise at blade reversal points. Reduced weight of the motor and size of the motor. Enhanced driver comfort reduced noise from wiper operation.  |  Additional cost is required to install this system for four wheelers. 
+it is not applicable for two wheelers.
+This system applied in the case of water falling on the glass only.
 
 
 
