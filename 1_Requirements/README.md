@@ -18,10 +18,24 @@ Now that you hopefully understand how the car wiper works, along with its compon
 
 ## What
 - A windshield wiper system comprises a wiper drive and two wiper arms.
+
 ## When
+- The wiper starts to turn on, the wiper motor will rotate the crank arm and this will make the connecting rods pull and push each other.
 
 ## Where
+- wiper blade is a device used to remove rain,dust particles,snow ice...etc.
+
 ## Who
+- wiper system is used to clean windscreen sufficiently to provide visibility to drive all the times.
+
 ## How
+- Windshield wipers are operated by an electric motor.The electric motor is attached to a worm gear, which transmits the necessary force to a long rod that sets the wiper arms in motion. When the wiper switch is in the off position, the wiper will not function. When the wiper switch is in low-speed mode, the wiper will work at low speed. Accordingly, when the wiper switch is in high-speed mode, the wiper will work at a fairly high speed.
 
 # SWOT Analysis
+
+
+
+
+
+
+
