@@ -50,8 +50,18 @@ it greatly makes the visibility and affets the safety of passengers and the vehi
 A Wiper Attack involves wiping/overwriting/removing data from the victim.
 
 # Requirements
+## High Level Requirements
 S.No. | Requirements | Status
 ------ | ----------- | -------
 1 | Arm Based Microcontroller | STM32F407VGT6 | Implemented
 2 | OS       | Windows | Implemented
 3 | Programming Language | C Language| Implemented 
+
+## Low Level Requirements
+S.No. | Requirements | Status
+----- | ------------ | -------
+1 | ON-ignition Key | Implemented
+2 | Press Multi functional wiper switch | Implemented
+3 | Supply to microcontroller | Implemented
+4 | activate wiper blades | Implemented
+5 | OFF- wiper switch | implemented
