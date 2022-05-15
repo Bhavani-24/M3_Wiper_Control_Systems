@@ -64,7 +64,7 @@ HLR_3 | The Red LED is off to indicate the ignition | Implemented
 
 # Low Level Requirements 
 LLR_ID | Description | Status
------------- | -------
+----- | ------------ | -------
 LLR_1 |  LEDs come on in desired pattern at set frequency at 1Hz(Low speed) | Implemented
 LLR_2 | LEDs come on in desired pattern at set frequency at 4Hz(medium speed)  | Implemented
 LLR_3 | LEDs come on in desired pattern at set frequency at 8Hz(high speed) | Implemented
