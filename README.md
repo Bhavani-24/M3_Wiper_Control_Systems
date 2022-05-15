@@ -5,4 +5,6 @@
 
 ![code grade](https://api.codiga.io/project/33507/status/svg)
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/a05e304a0b9841ff8f2762c120597910)](https://www.codacy.com/gh/Bhavani-24/M3_Wiper_Control_Systems/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Bhavani-24/M3_Wiper_Control_Systems&amp;utm_campaign=Badge_Grade)
+
 https://app.codiga.io/hub/project/33507/M3_Wiper_Control_Systems
