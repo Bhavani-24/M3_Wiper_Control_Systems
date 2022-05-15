@@ -13,6 +13,7 @@ wipers are manual systems that work on the principle of manual switching. So her
 ## Wiper working
 Our system uses rain sensor to detect rain, this signal is then processed by microcontroller to take the desired action. The rain sensor works on the principle of using water for completing its circuit, so when rain falls on it it’s circuit gets completed and sends out a signal to the microcontroller. The microcontroller now processes this data and controls the motor.This system is equally useful for Aircrafts and a smaller version of this can be used by motor bikers in their helmets so that they can drive easily in rains. When the wiper switch is in the off position, the wiper will not function. When the wiper switch is in low-speed mode, the wiper will work at low speed. Accordingly, when the wiper switch is in high-speed mode, the wiper will work at a fairly high speed.
 Now that you hopefully understand how the car wiper works, along with its components and detail functions, you should take care of it as well as possible and be diligent in cleaning it!
+
 # Features
 - It can control wiper action wirhout human intervention.
 - It is reliable and easy to configure.
@@ -20,40 +21,32 @@ Now that you hopefully understand how the car wiper works, along with its compon
 
 # 4W's and 1H
 
-## What
-- A windshield wiper system comprises a wiper drive and two wiper arms.
-
-## When
-- The wiper starts to turn on, the wiper motor will rotate the crank arm and this will make the connecting rods pull and push each other.
-
-## Where
-- wiper blade is a device used to remove rain,dust particles,snow ice...etc.
-
-## Who
-- wiper system is used to clean windscreen sufficiently to provide visibility to drive all the times.
-
-## How
-- Windshield wipers are operated by an electric motor.The electric motor is attached to a worm gear, which transmits the necessary force to a long rod that sets the wiper arms in motion. When the wiper switch is in the off position, the wiper will not function. When the wiper switch is in low-speed mode, the wiper will work at low speed. Accordingly, when the wiper switch is in high-speed mode, the wiper will work at a fairly high speed.
+- What : Automatic wiper control system using the microcontroller STM32407VG
+- When : when the visibility of the road is compromised due to rain, snow, dust.
+- Where : On the windshield of the vehicle.
+- Why : To improve the visibility of the road, to prevent accidents and to ensure safe travel.
+- How :By designing an embedded system controller to control the wiper arm action according to severity of conditions without human intervention.
 
 # SWOT Analysis
 ## strengths                                                            
-electronic and speed control reduced noise at blade reversal points.   
-Reduced weight of the motor and size of the motor.                    
-Enhanced driver comfort reduced noise from wiper operation.            
+- electronic and speed control reduced noise at blade reversal points.   
+- Reduced weight of the motor and size of the motor.                    
+- Enhanced driver comfort reduced noise from wiper operation.            
 
 ## weakness
-Additional cost is required to install this system for four wheelers.
-It is not applicable for two wheelers.
-This system applied in the case of water falling on the glass only.
+- Additional cost is required to install this system for four wheelers.
+- It is not applicable for two wheelers.
+- This system applied in the case of water falling on the glass only.
 
 ## Opportunities
-The wiper system of a vehicle is an integrated system that is used to remove rain, dust, oil from a windscreen or windshield.
-it greatly makes the visibility and affets the safety of passengers and the vehicles also.
+- The wiper system of a vehicle is an integrated system that is used to remove rain, dust, oil from a windscreen or windshield.
+- It greatly makes the visibility and affets the safety of passengers and the vehicles also.
 
 ## Treats
 A Wiper Attack involves wiping/overwriting/removing data from the victim.
 
 # Requirements
+
 ## High Level Requirements
  LLR_ID | Description | Status
 ------ | ----------- | -------
@@ -69,3 +62,7 @@ LLR_1 |  LEDs come on in desired pattern at set frequency at 1Hz(Low speed) | Im
 LLR_2 | LEDs come on in desired pattern at set frequency at 4Hz(medium speed)  | Implemented
 LLR_3 | LEDs come on in desired pattern at set frequency at 8Hz(high speed) | Implemented
 
+# References
+* https://www.st.com/resource/en/datasheet/stm32407vg.pdf
+* https://www.st.com/resource/en/reference_manual/rm0090-stm32f405415-stm32f407417-stm32f427437-and-stm32f429439-advanced-armbased-32bit-mcus-stmicroelectronics.pdf
+* https://www.st.com/resource/en/data_brief/stm32f4discovery.pdf
