@@ -1,5 +1,5 @@
 # Aim
-Car glass that is exposed to dirt or rainwater will usually be cleaned using a wiper. Usually, the wiper is attached to the front and rear sides. With the wiper, the driver’s view will not be hindered and so they can see clearly towards the front or rear. Wipers do have a very important role in the safety of the riders because wiper performance is closely related to the safety of driving.
+Wiper control system designed uses STM32F407VG as the main controller, which senses the severity of rain or snow and helps in varying the speeds of wiper according without any manual intervention. Usually, the wiper is attached to the front and rear sides. With the wiper, the driver’s view will not be hindered and so they can see clearly towards the front or rear. Wipers do have a very important role in the safety of the riders because wiper performance is closely related to the safety of driving.
 
 # Objectives
 - The main objective is to design and manufacture a new mechanism to cover the complete area of the wind screen.
@@ -13,6 +13,10 @@ wipers are manual systems that work on the principle of manual switching. So her
 ## Wiper working
 Our system uses rain sensor to detect rain, this signal is then processed by microcontroller to take the desired action. The rain sensor works on the principle of using water for completing its circuit, so when rain falls on it it’s circuit gets completed and sends out a signal to the microcontroller. The microcontroller now processes this data and controls the motor.This system is equally useful for Aircrafts and a smaller version of this can be used by motor bikers in their helmets so that they can drive easily in rains. When the wiper switch is in the off position, the wiper will not function. When the wiper switch is in low-speed mode, the wiper will work at low speed. Accordingly, when the wiper switch is in high-speed mode, the wiper will work at a fairly high speed.
 Now that you hopefully understand how the car wiper works, along with its components and detail functions, you should take care of it as well as possible and be diligent in cleaning it!
+# Features
+- It can control wiper action wirhout human intervention.
+- It is reliable and easy to configure.
+- It offers three different modes of control - low speed, medium speed, high speed.
 
 # 4W's and 1H
 
@@ -51,18 +55,17 @@ A Wiper Attack involves wiping/overwriting/removing data from the victim.
 
 # Requirements
 ## High Level Requirements
- Requirements | Status
------------ | -------
-HR_01 Lock and Unlock of car | Implemented
-HR_02 be able to ON the wipers and control their speed | Implemented
-HR_03 Activating the wiper system | Implemented
-HR_04 Deactivating the wiper system | Implemented
+ LLR_ID | Description | Status
+------ | ----------- | -------
+HLR_1 | The red LED is on to indicate the Ignition key position at ACC | Implemented
+HLR_2 | LEDs come in desired pattern at set frequency replicating speed control of wiper arm| Implemented
+HLR_3 | The Red LED is off to indicate the ignition | Implemented
 
 
 # Low Level Requirements 
-Requirements | Status
+LLR_ID | Description | Status
 ------------ | -------
-LR_01 If Button pressed one time - ON RED LED | Implemented
-LR_02 If Button pressed Two times - OFF RED LED | Implemented
-LR_03 If Button pressed three times - ON BLUE,GREEN,ORANGE LEDs | Implemented
-LR_04 If Button pressed four times - ON ORANGE,GREEN,BLUE LEDs | Implemented
+LLR_1 |  LEDs come on in desired pattern at set frequency at 1Hz(Low speed) | Implemented
+LLR_2 | LEDs come on in desired pattern at set frequency at 4Hz(medium speed)  | Implemented
+LLR_3 | LEDs come on in desired pattern at set frequency at 8Hz(high speed) | Implemented
+
