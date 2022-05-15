@@ -7,3 +7,8 @@ TST_2 | On second button press, LEDs come on in desired pattern at set frequency
 TST_3 | On third button press, LEDs come on in desired pattern at set frequency at 4 Hz(medium speed) | Described objective met | Described objective met | requirements based
 TST_4 | On fourth button press , LEDs come on in desired pattern at set frequency at 8 Hz(high speed) | Described objective met | Described objective met | requirements based
 TST_5 | On fifthe button press, Red LED should be off to indicate Ignition key position at lock | Red LED OFF | Red LED OFF | Requirements based
+
+# Output
+
+![image](https://user-images.githubusercontent.com/104186419/168486135-4c4676e0-9924-4c36-a2cb-a5fffc7ca820.png)
+
