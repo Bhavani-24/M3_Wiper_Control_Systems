@@ -12,4 +12,4 @@ TST_5 | On fifthe button press, Red LED should be off to indicate Ignition key p
 
 ![image](https://user-images.githubusercontent.com/104186419/168486135-4c4676e0-9924-4c36-a2cb-a5fffc7ca820.png)
 
-![image](https://user-images.githubusercontent.com/104186419/168486241-d6a48dde-1a9e-4586-8ee3-d246c72e9838.png)
+
