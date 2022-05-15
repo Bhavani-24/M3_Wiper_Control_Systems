@@ -22,10 +22,10 @@
 #define GPIOD_PIN_14                             14
 #define GPIOD_PIN_15                             15
 
-#define LED_GREEN                                GPIOD_PIN_12 
-#define LED_ORANGE                               GPIOD_PIN_13
-#define LED_RED                                  GPIOD_PIN_14
-#define LED_BLUE                                 GPIOD_PIN_15
+#define LED_BLUE                               GPIOD_PIN_12 
+#define LED_ORANGE                             GPIOD_PIN_13
+#define LED_GREEN                              GPIOD_PIN_14
+#define LED_RED                                GPIOD_PIN_15
 
 
  void led_init(void);
