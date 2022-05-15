@@ -21,7 +21,7 @@ void led_init(void)
 	
 	gpio_pin_config_typedef led_pin_config;
 	
-	led_pin_config.pin = LED_ORANGE;
+	led_pin_config.pin = LED_red;
 	led_pin_config.mode = GPIO_PIN_OUTPUT_MODE;
 	led_pin_config.output_type = GPIO_PIN_OUTPUT_TYPE_PUSHPULL;
 	led_pin_config.speed = GPIO_PIN_SPEED_LOW;
@@ -29,13 +29,13 @@ void led_init(void)
 	
 	hal_gpio_init(GPIO_PORT_D, &led_pin_config);
 	
-	led_pin_config.pin = LED_GREEN;
+	led_pin_config.pin = LED_blue;
 	hal_gpio_init(GPIO_PORT_D, &led_pin_config);
 	
-	led_pin_config.pin = LED_RED;
+	led_pin_config.pin = LED_green;
 	hal_gpio_init(GPIO_PORT_D, &led_pin_config);
 	
-	led_pin_config.pin = LED_BLUE;
+	led_pin_config.pin = LED_orange;
 	hal_gpio_init(GPIO_PORT_D, &led_pin_config);
 	
 }
