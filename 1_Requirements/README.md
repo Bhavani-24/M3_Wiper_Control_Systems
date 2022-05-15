@@ -51,17 +51,18 @@ A Wiper Attack involves wiping/overwriting/removing data from the victim.
 
 # Requirements
 ## High Level Requirements
-S.No. | Requirements | Status
------- | ----------- | -------
-1 | Arm Based Microcontroller | STM32F407VGT6 | Implemented
-2 | OS       | Windows | Implemented
-3 | Programming Language | C Language| Implemented 
+ Requirements | Status
+----------- | -------
+HR_01 Lock and Unlock of car | Implemented
+HR_02 be able to ON the wipers and control their speed | Implemented
+HR_03 Activating the wiper system | Implemented
+HR_04 Deactivating the wiper system | Implemented
 
-## Low Level Requirements
-S.No. | Requirements | Status
------ | ------------ | -------
-1 | ON-ignition Key | Implemented
-2 | Press Multi functional wiper switch | Implemented
-3 | Supply to microcontroller | Implemented
-4 | activate wiper blades | Implemented
-5 | OFF- wiper switch | implemented
+
+# Low Level Requirements 
+Requirements | Status
+------------ | -------
+LR_01 If Button pressed one time - ON RED LED | Implemented
+LR_02 If Button pressed Two times - OFF RED LED | Implemented
+LR_03 If Button pressed three times - ON BLUE,GREEN,ORANGE LEDs | Implemented
+LR_04 If Button pressed four times - ON ORANGE,GREEN,BLUE LEDs | Implemented
